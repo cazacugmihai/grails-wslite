@@ -1,0 +1,24 @@
+<plugin name='wslite' version='0.7.2.0' grailsVersion='1.2.2 &gt; *'>
+  <author>Mihai Cazacu</author>
+  <authorEmail>cazacugmihai@gmail.com</authorEmail>
+  <title>Wslite plugin</title>
+  <description>This plugin brings the power of https://github.com/jwagenleitner/groovy-wslite library to your
+Grails app. Thanks to Andres Almiray to provided code at https://github.com/griffon/griffon-wslite-plugin!</description>
+  <documentation>http://grails.org/plugin/wslite</documentation>
+  <type>WsliteGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='https://oss.sonatype.org/content/groups/public' url='https://oss.sonatype.org/content/groups/public/' />
+    <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='com.github.groovy-wslite' name='groovy-wslite' version='0.7.2' />
+    </runtime>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
